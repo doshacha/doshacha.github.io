@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" role="img" aria-label="Ilustración de artículo del taller">
+  <defs>
+    <pattern id="dots" width="56" height="56" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="3.4" fill="#141414" opacity=".22"/>
+    </pattern>
+    <g id="spark">
+      <path d="M0,-18 L4,-5 L17,0 L4,5 L0,18 L-4,5 L-17,0 L-4,-5 Z"/>
+    </g>
+  </defs>
+  <rect width="900" height="1125" fill="#EFE4D0"/>
+  <rect width="900" height="520" fill="url(#dots)" opacity=".55"/>
+  <circle cx="452" cy="650" r="300" fill="#B4553A"/>
+  <ellipse cx="460" cy="958" rx="236" ry="32" fill="#141414" opacity=".12"/>
+
+  <!-- bolsa del taller -->
+  <g stroke="#141414" stroke-width="7" stroke-linejoin="round">
+    <path d="M268,700 L612,700 L652,944 L228,944 Z" fill="#FBF6EC"/>
+    <path d="M344,700 C344,604 420,560 450,560 C480,560 556,604 556,700" fill="none" stroke-width="9"/>
+    <path d="M268,782 L612,782" fill="none" opacity=".28" stroke-width="4"/>
+  </g>
+
+  <!-- etiqueta -->
+  <g transform="rotate(-6 450 842)">
+    <rect x="320" y="806" width="260" height="98" rx="8" fill="#F8F3EA" stroke="#141414" stroke-width="6"/>
+    <circle cx="358" cy="855" r="12" fill="none" stroke="#141414" stroke-width="5"/>
+    <path d="M350,855 L371,855" stroke="#141414" stroke-width="5" stroke-linecap="round"/>
+    <path d="M392,833 L552,833 M392,857 L520,857 M392,881 L540,881" stroke="#B4553A" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- destellos -->
+  <use href="#spark" transform="translate(300 560) scale(1.5)" fill="#FBF6EC"/>
+  <use href="#spark" transform="translate(612 610) scale(.9)" fill="#FBF6EC"/>
+  <use href="#spark" transform="translate(660 850) scale(.75)" fill="#FBF6EC"/>
+</svg>

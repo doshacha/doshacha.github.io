@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panel de productos · Doshacha</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#F8F3EA">
+<link rel="icon" href="assets/img/favicon-64.png" sizes="64x64">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@300;400;500;600&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/panel.css">
+</head>
+<body class="panel">
+
+<header class="ptop">
+  <a class="ptop__brand" href="index.html" title="Ver la web">
+    <img src="assets/img/logo.png" alt="Doshacha">
+  </a>
+  <div class="ptop__title">
+    <h1>Panel de productos</h1>
+    <p>Sube la foto, pon el precio y la descripción, elige dónde aparece y descarga el paquete listo para publicar.</p>
+  </div>
+  <div class="ptop__actions">
+    <a class="pbtn" href="index.html" target="_blank" rel="noopener">Ver la web ↗</a>
+    <label class="pbtn">Importar JSON<input type="file" id="inpImport" accept=".json" hidden></label>
+    <button class="pbtn" id="btnDescartar" type="button">Descartar</button>
+    <button class="pbtn pbtn--clay" id="btnDescargar" type="button">Descargar cambios (.zip)</button>
+  </div>
+</header>
+
+<div class="pwrap">
+  <aside class="plist">
+    <div class="plist__top">
+      <span id="contador">0 productos</span>
+      <button class="pbtn pbtn--mini" id="btnNuevo" type="button">+ Añadir</button>
+    </div>
+    <ul class="plist__ul" id="lista"></ul>
+    <p class="plist__hint">El orden de esta lista es el orden en la web. Mueve con ↑ ↓.</p>
+  </aside>
+
+  <main class="pedit">
+    <div class="pform">
+      <section class="pblock">
+        <h2>Foto</h2>
+        <div class="pfoto-fila">
+          <div class="pfoto is-vacia" id="zonaFoto">
+            <img id="fotoPreview" alt="">
+            <div class="pfoto__vacio">
+              <strong>Arrastra una foto</strong>
+              <span>o haz clic para elegir.<br>Se recorta a 4:5 y se optimiza sola.</span>
+            </div>
+            <input type="file" id="inpFoto" accept="image/*" hidden>
+          </div>
+          <div class="pfoto-lado">
+            <p class="phelp" id="fotoInfo">Sin foto: se usa la ilustración actual.</p>
+            <button class="pbtn pbtn--mini" type="button" id="btnQuitarFoto">Quitar foto</button>
+            <p class="phelp">Se guarda en <code>assets/img/fotos/</code> con el nombre de la pieza.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pblock">
+        <h2>Datos de la pieza</h2>
+        <label class="pfield"><span>Nombre</span>
+          <input id="fNombre" type="text" placeholder="Caja rectangular 10×15×5">
+        </label>
+        <div class="prow">
+          <label class="pfield"><span>Etiqueta</span>
+            <input id="fEtiqueta" type="text" placeholder="Cajas">
+          </label>
+          <label class="pfield"><span>Categoría (filtro)</span>
+            <input id="fCategoria" type="text" list="categoriasPanel" placeholder="cajas">
+            <datalist id="categoriasPanel">
+              <option value="cajas"></option>
+              <option value="papeleria"></option>
+              <option value="textil"></option>
+              <option value="sublimacion"></option>
+              <option value="articulos"></option>
+            </datalist>
+          </label>
+        </div>
+        <p class="phelp">La categoría es el filtro del catálogo. Puedes escribir una nueva: aparecerá sola en los botones de la web.</p>
+        <label class="pfield"><span>Descripción</span>
+          <textarea id="fDescripcion" rows="3" placeholder="Con tapa, arte externo y estampa interna opcional."></textarea>
+        </label>
+      </section>
+
+      <section class="pblock">
+        <h2>Precio</h2>
+        <div class="prow">
+          <label class="pfield"><span>Precio en USD</span>
+            <input id="fUsd" type="number" min="0" step="0.01" placeholder="34.00">
+          </label>
+          <label class="pfield"><span>Nota del precio</span>
+            <input id="fNota" type="text" placeholder="Pack de 25 · $1,36 c/u">
+          </label>
+        </div>
+        <p class="phelp">Si lo dejas vacío, la pieza muestra “Cotizar”. El monto en Bs se calcula con la tasa de <code>precios.js</code>.</p>
+      </section>
+
+      <section class="pblock">
+        <h2>Dónde aparece</h2>
+        <label class="pcheck"><input type="checkbox" id="chkCatalogo"> <span>Catálogo (con los filtros por categoría)</span></label>
+        <label class="pcheck"><input type="checkbox" id="chkRail"> <span>Carrusel de inicio (“Piezas que se sienten hechas para ti”)</span></label>
+        <label class="pfield" style="margin-top:14px"><span>Enlace del botón “Cotizar”</span>
+          <input id="fWa" type="text">
+        </label>
+      </section>
+    </div>
+
+    <aside class="pprev">
+      <div class="pprev__head">
+        <span>Así se verá</span>
+        <button class="pbtn pbtn--mini pbtn--danger" id="btnEliminar" type="button">Eliminar</button>
+      </div>
+      <div class="pprev__card" id="preview"></div>
+      <p class="phelp">La vista es aproximada; en la web la tarjeta se ajusta a la rejilla.</p>
+    </aside>
+  </main>
+</div>
+
+<div class="pbar" id="estado" role="status" aria-live="polite">
+  <span class="pbar__msg" id="pbarMsg"></span>
+  <span id="pbarDatos"></span>
+</div>
+
+<script src="assets/js/precios.js"></script>
+<script src="assets/js/zip.js"></script>
+<script src="assets/js/foto.js"></script>
+<script src="assets/js/tarjeta.js"></script>
+<script src="assets/js/productos.js"></script>
+<script src="assets/js/panel.js"></script>
+</body>
+</html>

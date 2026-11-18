@@ -1,0 +1,22 @@
+AQUÍ VAN TUS FOTOS
+==================
+
+Guarda cada foto en formato vertical 4:5 (por ejemplo 1200 x 1500 px), en .webp o .jpg,
+con estos nombres exactos (en minúsculas y sin acentos):
+
+  cajas.webp         -> cajas y empaques
+  invitaciones.webp  -> tarjetas e invitaciones
+  stickers.webp      -> stickers y etiquetas
+  raspadita.webp     -> tarjetas raspadita
+  marca.webp         -> kit de marca / identidad
+  evento.webp        -> detalles y souvenirs
+  costura.webp       -> costura y confección
+  textil.webp        -> telas, cortinas, textil hogar
+  sublimacion.webp   -> tazas, franelas, sublimados
+
+Después abre index.html y cambia la ruta de cada imagen:
+
+  antes:  assets/img/art/art-cajas.svg
+  después: assets/img/fotos/cajas.webp
+
+Las tarjetas ya recortan la imagen en 4:5, así que no necesitas encuadrar a la perfección.
