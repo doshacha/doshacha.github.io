@@ -1,0 +1,85 @@
+/* ------------------------------------------------------------
+   Enhancements for mobile experience (separate test directory)
+   ------------------------------------------------------------ */
+
+/* ---------- Dark mode (prefers‑color‑scheme) ---------- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #f8f3ea;         /* original light text */
+    --cream: #212121;       /* dark background */
+    --paper: #212121;       /* page background */
+    --paper-2: #2b2b2b;     /* secondary surfaces */
+    --line: #555555;        /* borders */
+    --line-soft: #444444;   /* softer borders */
+    --clay: #b4553a;        /* accent */
+    --clay-d: #9a422b;      /* darker accent */
+    --muted: #bbbbbb;       /* muted text */
+  }
+  body {
+    background: var(--paper) !important;
+    color: var(--cream) !important;
+  }
+}
+
+/* ---------- Sticky filter bar (desktop stays unchanged) ---------- */
+/* Add the class `filter-bar` to the container that holds the .filters */
+.filter-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--paper);
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+/* ---------- Back‑to‑top floating button (mobile only) ---------- */
+/* Add a button with class `scroll-top` to the page markup */
+.scroll-top {
+  position: fixed;
+  right: 14px;
+  bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+  width: 44px;
+  height: 44px;
+  background: var(--clay);
+  color: var(--cream);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 100;
+  transition: background .25s, transform .2s;
+}
+.scroll-top:hover {
+  background: var(--clay-d);
+  transform: scale(1.08);
+}
+
+/* ---------- Improved tabindex for filter chips ---------- */
+.chip {
+  /* make chips focusable for keyboard navigation */
+  outline: none;
+}
+.chip:focus {
+  box-shadow: 0 0 0 3px var(--clay);
+}
+
+/* ---------- Form field enhancements (larger tap area) ---------- */
+.cart__field input,
+.cart__field select,
+.cart__field textarea {
+  min-height: 44px; /* easier to tap */
+  font-size: 16px;
+}
+
+/* ---------- Touch‑friendly add‑to‑cart button on cards ---------- */
+.pcard__add {
+  min-height: 44px;
+  padding: 12px 18px;
+  touch-action: manipulation;
+}
+
+/* ---------- Smooth scroll behavior for anchor links */
+html {
+  scroll-behavior: smooth;
+}
