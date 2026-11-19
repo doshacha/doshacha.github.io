@@ -1,7 +1,7 @@
 /* ==========================================================================
    Doshacha — productos
    --------------------------------------------------------------------------
-   Catálogo generado desde la aplicación de gestión el 18/11/2026 14:41.
+   Catálogo generado desde la aplicación de gestión el 18/11/2026 16:02.
    Incluye servicios, artículos y materiales marcados para publicar en la web.
    ========================================================================== */
 window.DOSHACHA_TIENDA = {
@@ -106,6 +106,23 @@ window.DOSHACHA_PRODUCTOS = [
     "nota": "Servicio del taller",
     "imagen": "assets/img/fotos/srv-6157a3c884b94915ad7840eca6274f68.jpg",
     "wa": "https://wa.me/584169184756?text=Hola%2C%20quiero%20cotizar%20Ruedo%20de%20pantalones.",
+    "ubicaciones": [
+      "catalogo"
+    ],
+    "origen": "servicio",
+    "actualizado": "2026-11-18"
+  },
+  {
+    "id": "srv-55816dc8ae71409f94d0c8e04a69135e",
+    "nombre": "Servicio de Delivery",
+    "etiqueta": "Delivery",
+    "categoria": "delivery",
+    "categoriaNombre": "Delivery",
+    "descripcion": "Servicio de Delivery",
+    "usd": 2.5,
+    "nota": "Servicio del taller",
+    "imagen": "assets/img/fotos/srv-55816dc8ae71409f94d0c8e04a69135e.jpg",
+    "wa": "https://wa.me/584169184756?text=Hola%2C%20quiero%20cotizar%20Servicio%20de%20Delivery.",
     "ubicaciones": [
       "catalogo"
     ],

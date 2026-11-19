@@ -1,7 +1,7 @@
 /* ==========================================================================
    Doshacha — productos
    --------------------------------------------------------------------------
-   Catálogo generado desde la aplicación de gestión el 18/11/2026 16:02.
+   Catálogo generado desde la aplicación de gestión el 19/11/2026 10:53.
    Incluye servicios, artículos y materiales marcados para publicar en la web.
    ========================================================================== */
 window.DOSHACHA_TIENDA = {
@@ -25,7 +25,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-2bb16da172f941ba864edfe411975c6a",
@@ -42,7 +42,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-9aeb73266616407e973e43ba2dadfd96",
@@ -59,7 +59,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-e0512d18e39f41c08c032b4de4a3a591",
@@ -76,7 +76,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-0dd6b23086984f788748d977c7ba8c94",
@@ -93,7 +93,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-6157a3c884b94915ad7840eca6274f68",
@@ -110,7 +110,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-55816dc8ae71409f94d0c8e04a69135e",
@@ -127,7 +127,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-3c62b4052f6e4cf4bfc1fed07705e62f",
@@ -144,7 +144,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-bdec7470bba8431ead57fd13cc6b6205",
@@ -161,7 +161,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-9392c63e45454e839b80b025815873a9",
@@ -178,7 +178,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-cca6fc2924f144068d4534a3228cc94b",
@@ -195,7 +195,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-a5bd9b7e074e41a4b83f3468d7ade99f",
@@ -212,7 +212,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-61a0ba73cf754254b0be271564685739",
@@ -229,7 +229,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-dc95ff43f3fc4a0da217f923a9daca49",
@@ -246,7 +246,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-c2f3774188bb4f62b1576e9c888d5b6c",
@@ -263,7 +263,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-41679aa5af0549dcbdf798b3a02684dc",
@@ -280,7 +280,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-3d82a0d47339418e842f446696260bce",
@@ -297,7 +297,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-7bb3c892591e4480b0002802f10de06a",
@@ -314,7 +314,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-e43e1125c114439c9ec9cbe86997998b",
@@ -331,7 +331,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "srv-1cb6a4cf2fa2471fbeff9302cb685ac7",
@@ -348,7 +348,7 @@ window.DOSHACHA_PRODUCTOS = [
       "catalogo"
     ],
     "origen": "servicio",
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "inv-c49c000256474e6fa68b70b4258f4d64",
@@ -366,7 +366,7 @@ window.DOSHACHA_PRODUCTOS = [
     ],
     "origen": "inventario",
     "stock": 500,
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "inv-233fec7efb064912b6306886bb434c36",
@@ -384,7 +384,7 @@ window.DOSHACHA_PRODUCTOS = [
     ],
     "origen": "inventario",
     "stock": 43,
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "inv-8b97cb8ad9844969b8c65f741657a7ec",
@@ -402,7 +402,7 @@ window.DOSHACHA_PRODUCTOS = [
     ],
     "origen": "inventario",
     "stock": 49,
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "inv-01ee10a8ecdc408096033b5150517898",
@@ -420,7 +420,7 @@ window.DOSHACHA_PRODUCTOS = [
     ],
     "origen": "inventario",
     "stock": 14,
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "inv-980659d3c0984045a89a090f07b19934",
@@ -438,7 +438,7 @@ window.DOSHACHA_PRODUCTOS = [
     ],
     "origen": "inventario",
     "stock": 80,
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   },
   {
     "id": "inv-76356ede1f21473585a723590e5c4873",
@@ -456,6 +456,6 @@ window.DOSHACHA_PRODUCTOS = [
     ],
     "origen": "inventario",
     "stock": 3,
-    "actualizado": "2026-11-18"
+    "actualizado": "2026-11-19"
   }
 ];
