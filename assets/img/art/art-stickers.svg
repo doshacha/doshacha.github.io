@@ -8,61 +8,61 @@
       <path d="M36,-4 L22,-56 L4,-6 Z"/>
     </g>
     <pattern id="dots2" width="48" height="48" patternUnits="userSpaceOnUse">
-      <circle cx="4" cy="4" r="3" fill="#141414" opacity=".25"/>
+      <circle cx="4" cy="4" r="3" fill="#0a0a0a" opacity=".25"/>
     </pattern>
   </defs>
   <rect width="900" height="1125" fill="#F3EBDC"/>
   <rect width="900" height="1125" fill="url(#dots2)" opacity=".5"/>
-  <circle cx="250" cy="300" r="170" fill="#D8AFA4" opacity=".85"/>
-  <rect x="520" y="120" width="300" height="300" rx="150" fill="#B4553A" opacity=".18"/>
+  <circle cx="250" cy="300" r="170" fill="#888888" opacity=".85"/>
+  <rect x="520" y="120" width="300" height="300" rx="150" fill="#222222" opacity=".18"/>
 
   <!-- calcomanía circular con gato -->
   <g transform="translate(300,420)">
-    <circle r="150" fill="#FBF6EC" stroke="#FBF6EC" stroke-width="16"/>
-    <circle r="128" fill="#B4553A"/>
-    <g fill="#FBF6EC" transform="scale(2.1)"><use href="#logo-claro"/></g>
+    <circle r="150" fill="#ffffff" stroke="#ffffff" stroke-width="16"/>
+    <circle r="128" fill="#222222"/>
+    <g fill="#ffffff" transform="scale(2.1)"><use href="#logo-claro"/></g>
   </g>
 
   <!-- estrella -->
   <g transform="translate(636,318) rotate(12)">
     <path d="M0,-120 L27,-37 L114,-37 L44,15 L70,98 L0,46 L-70,98 L-44,15 L-114,-37 L-27,-37 Z"
-          fill="#FBF6EC" stroke="#FBF6EC" stroke-width="18" stroke-linejoin="round"/>
+          fill="#ffffff" stroke="#ffffff" stroke-width="18" stroke-linejoin="round"/>
     <path d="M0,-120 L27,-37 L114,-37 L44,15 L70,98 L0,46 L-70,98 L-44,15 L-114,-37 L-27,-37 Z"
-          fill="#141414" stroke="#141414" stroke-width="6" stroke-linejoin="round"/>
+          fill="#0a0a0a" stroke="#0a0a0a" stroke-width="6" stroke-linejoin="round"/>
   </g>
 
   <!-- corazón -->
   <g transform="translate(250,760)">
     <path d="M0,60 C -120,-20 -110,-130 -50,-130 C -20,-130 0,-108 0,-90 C 0,-108 20,-130 50,-130 C 110,-130 120,-20 0,60 Z"
-          fill="#FBF6EC" stroke="#FBF6EC" stroke-width="16"/>
+          fill="#ffffff" stroke="#ffffff" stroke-width="16"/>
     <path d="M0,60 C -120,-20 -110,-130 -50,-130 C -20,-130 0,-108 0,-90 C 0,-108 20,-130 50,-130 C 110,-130 120,-20 0,60 Z"
-          fill="#E3D2B4" stroke="#141414" stroke-width="5"/>
+          fill="#cccccc" stroke="#0a0a0a" stroke-width="5"/>
   </g>
 
   <!-- blob con arco -->
   <g transform="translate(636,700)">
     <path d="M-160,10 C -160,-110 -60,-170 10,-170 C 100,-170 160,-100 160,0 C 160,110 80,170 0,170 C -90,170 -160,110 -160,10 Z"
-          fill="#FBF6EC" stroke="#FBF6EC" stroke-width="16"/>
+          fill="#ffffff" stroke="#ffffff" stroke-width="16"/>
     <path d="M-160,10 C -160,-110 -60,-170 10,-170 C 100,-170 160,-100 160,0 C 160,110 80,170 0,170 C -90,170 -160,110 -160,10 Z"
-          fill="#F6EEDF" stroke="#141414" stroke-width="5"/>
-    <g fill="#B4553A">
-      <path d="M-80,40 A 80,80 0 0 1 80,40" fill="none" stroke="#B4553A" stroke-width="12" stroke-linecap="round"/>
+          fill="#e8e8e8" stroke="#0a0a0a" stroke-width="5"/>
+    <g fill="#222222">
+      <path d="M-80,40 A 80,80 0 0 1 80,40" fill="none" stroke="#222222" stroke-width="12" stroke-linecap="round"/>
       <circle cx="0" cy="-6" r="16"/>
     </g>
   </g>
 
   <!-- etiqueta -->
   <g transform="translate(300,1010) rotate(-6)">
-    <path d="M-70,-60 H18 L62,-16 V60 H-70 Z" fill="#FBF6EC" stroke="#FBF6EC" stroke-width="16" stroke-linejoin="round"/>
-    <path d="M-70,-60 H18 L62,-16 V60 H-70 Z" fill="#FBF6EC" stroke="#141414" stroke-width="5" stroke-linejoin="round"/>
-    <circle cx="-38" cy="-26" r="9" fill="#F3EBDC" stroke="#141414" stroke-width="4"/>
-    <g transform="translate(-6,16) scale(.62)" fill="#141414"><use href="#logo"/></g>
+    <path d="M-70,-60 H18 L62,-16 V60 H-70 Z" fill="#ffffff" stroke="#ffffff" stroke-width="16" stroke-linejoin="round"/>
+    <path d="M-70,-60 H18 L62,-16 V60 H-70 Z" fill="#ffffff" stroke="#0a0a0a" stroke-width="5" stroke-linejoin="round"/>
+    <circle cx="-38" cy="-26" r="9" fill="#F3EBDC" stroke="#0a0a0a" stroke-width="4"/>
+    <g transform="translate(-6,16) scale(.62)" fill="#0a0a0a"><use href="#logo"/></g>
   </g>
 
   <!-- confeti -->
   <g>
-    <rect x="700" y="1000" width="52" height="14" rx="7" fill="#B4553A" transform="rotate(24 726 1007)"/>
-    <rect x="620" y="1050" width="52" height="14" rx="7" fill="#141414" opacity=".7" transform="rotate(-14 646 1057)"/>
-    <circle cx="792" cy="1046" r="12" fill="#141414" opacity=".55"/>
+    <rect x="700" y="1000" width="52" height="14" rx="7" fill="#222222" transform="rotate(24 726 1007)"/>
+    <rect x="620" y="1050" width="52" height="14" rx="7" fill="#0a0a0a" opacity=".7" transform="rotate(-14 646 1057)"/>
+    <circle cx="792" cy="1046" r="12" fill="#0a0a0a" opacity=".55"/>
   </g>
 </svg>

@@ -8,7 +8,7 @@
 
   const $ = (sel, ctx = document) => ctx.querySelector(sel);
   const CLAVE = "doshacha-panel-v1";
-  const ART_POR_DEFECTO = "assets/img/art/art-cajas.svg";
+  const ART_POR_DEFECTO = "assets/img/fotos/cajas.jpg";
   const WA_POR_DEFECTO = "https://wa.me/584169184756?text=Hola%20Doshacha%2C%20quiero%20cotizar.";
 
   const esc = (t) => (window.DoshachaTarjeta ? window.DoshachaTarjeta.esc(t) : String(t || ""));

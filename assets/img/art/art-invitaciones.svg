@@ -7,35 +7,35 @@
       <path d="M28,-4 L17,-44 L3,-6 Z"/>
     </g>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0 H0 V40" fill="none" stroke="#141414" stroke-width="1" opacity=".12"/>
+      <path d="M40 0 H0 V40" fill="none" stroke="#0a0a0a" stroke-width="1" opacity=".12"/>
     </pattern>
   </defs>
   <rect width="900" height="1125" fill="#EFE9DC"/>
   <rect width="900" height="1125" fill="url(#grid)"/>
-  <circle cx="716" cy="242" r="150" fill="#B4553A" opacity=".9"/>
-  <circle cx="152" cy="920" r="110" fill="none" stroke="#141414" stroke-width="4" opacity=".5"/>
+  <circle cx="716" cy="242" r="150" fill="#222222" opacity=".9"/>
+  <circle cx="152" cy="920" r="110" fill="none" stroke="#0a0a0a" stroke-width="4" opacity=".5"/>
 
   <!-- tarjeta trasera -->
   <g transform="translate(470,560) rotate(9)">
-    <rect x="-190" y="-270" width="380" height="540" rx="6" fill="#E3D2B4" opacity=".95"/>
+    <rect x="-190" y="-270" width="380" height="540" rx="6" fill="#cccccc" opacity=".95"/>
   </g>
 
   <!-- tarjeta principal -->
   <g transform="translate(432,540) rotate(-6)">
-    <rect x="-190" y="-270" width="380" height="540" rx="6" fill="#FBF6EC" stroke="#141414" stroke-width="4"/>
-    <rect x="-168" y="-248" width="336" height="496" rx="2" fill="none" stroke="#141414" stroke-width="1.6" opacity=".55"/>
-    <g transform="translate(0,-120)" fill="#141414"><use href="#logo"/></g>
-    <g fill="#141414" opacity=".82">
+    <rect x="-190" y="-270" width="380" height="540" rx="6" fill="#ffffff" stroke="#0a0a0a" stroke-width="4"/>
+    <rect x="-168" y="-248" width="336" height="496" rx="2" fill="none" stroke="#0a0a0a" stroke-width="1.6" opacity=".55"/>
+    <g transform="translate(0,-120)" fill="#0a0a0a"><use href="#logo"/></g>
+    <g fill="#0a0a0a" opacity=".82">
       <rect x="-118" y="-46" width="236" height="16" rx="8"/>
       <rect x="-84" y="-8" width="168" height="8" rx="4" opacity=".7"/>
       <rect x="-84" y="16" width="196" height="8" rx="4" opacity=".7"/>
     </g>
-    <line x1="-60" y1="66" x2="60" y2="66" stroke="#B4553A" stroke-width="3"/>
-    <g fill="#141414" opacity=".82">
+    <line x1="-60" y1="66" x2="60" y2="66" stroke="#222222" stroke-width="3"/>
+    <g fill="#0a0a0a" opacity=".82">
       <rect x="-70" y="102" width="140" height="8" rx="4" opacity=".7"/>
       <rect x="-40" y="126" width="80" height="8" rx="4" opacity=".55"/>
     </g>
-    <g transform="translate(0,196)" fill="#B4553A">
+    <g transform="translate(0,196)" fill="#222222">
       <path d="M-46 0 l9 26 26 9 -26 9 -9 26 -9 -26 -26 -9 26 -9 z"/>
       <path d="M46 0 l9 26 26 9 -26 9 -9 26 -9 -26 -26 -9 26 -9 z" transform="scale(.6)"/>
     </g>
@@ -43,12 +43,12 @@
 
   <!-- sobre -->
   <g transform="translate(206,946) rotate(-8)">
-    <rect x="-120" y="-84" width="240" height="168" rx="4" fill="#FBF6EC" stroke="#141414" stroke-width="4"/>
-    <path d="M-120,-84 L0,10 L120,-84" fill="none" stroke="#141414" stroke-width="2.4" opacity=".7"/>
-    <circle cx="0" cy="10" r="13" fill="#B4553A"/>
+    <rect x="-120" y="-84" width="240" height="168" rx="4" fill="#ffffff" stroke="#0a0a0a" stroke-width="4"/>
+    <path d="M-120,-84 L0,10 L120,-84" fill="none" stroke="#0a0a0a" stroke-width="2.4" opacity=".7"/>
+    <circle cx="0" cy="10" r="13" fill="#222222"/>
   </g>
 
-  <g fill="#141414" opacity=".25">
+  <g fill="#0a0a0a" opacity=".25">
     <rect x="672" y="1000" width="120" height="4"/>
     <rect x="672" y="1020" width="80" height="4"/>
     <rect x="672" y="1040" width="100" height="4"/>

@@ -8,20 +8,20 @@
     </g>
   </defs>
   <rect width="900" height="1125" fill="#F1EADB"/>
-  <path d="M120,1125 V 470 A 330,330 0 0 1 780,470 V 1125 Z" fill="#141414"/>
-  <circle cx="470" cy="300" r="120" fill="#B4553A" opacity=".95"/>
+  <path d="M120,1125 V 470 A 330,330 0 0 1 780,470 V 1125 Z" fill="#0a0a0a"/>
+  <circle cx="470" cy="300" r="120" fill="#222222" opacity=".95"/>
 
   <!-- taza -->
   <g transform="translate(392,700)">
-    <path d="M116,-52 C 214,-52 214,86 116,86" fill="none" stroke="#FBF6EC" stroke-width="16" stroke-linecap="round"/>
-    <rect x="-124" y="-96" width="240" height="196" rx="26" fill="#FBF6EC"/>
-    <ellipse cx="-4" cy="-92" rx="120" ry="20" fill="#E3D2B4"/>
-    <g transform="translate(0,10) scale(1.05)" fill="#B4553A"><use href="#logo"/></g>
-    <path d="M-124,26 H116" stroke="#E3D2B4" stroke-width="6"/>
+    <path d="M116,-52 C 214,-52 214,86 116,86" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round"/>
+    <rect x="-124" y="-96" width="240" height="196" rx="26" fill="#ffffff"/>
+    <ellipse cx="-4" cy="-92" rx="120" ry="20" fill="#cccccc"/>
+    <g transform="translate(0,10) scale(1.05)" fill="#222222"><use href="#logo"/></g>
+    <path d="M-124,26 H116" stroke="#cccccc" stroke-width="6"/>
   </g>
 
   <!-- vapor -->
-  <g stroke="#FBF6EC" stroke-width="5" fill="none" opacity=".55" stroke-linecap="round">
+  <g stroke="#ffffff" stroke-width="5" fill="none" opacity=".55" stroke-linecap="round">
     <path d="M300,520 C 280,470 320,440 300,392"/>
     <path d="M368,510 C 348,460 388,430 368,382"/>
     <path d="M436,506 C 416,456 456,426 436,378"/>
@@ -29,19 +29,19 @@
 
   <!-- bolso tote -->
   <g transform="translate(676,880) rotate(6)">
-    <path d="M-98,-96 H98 L82,150 H-82 Z" fill="#E3D2B4" stroke="#FBF6EC" stroke-width="5"/>
-    <path d="M-56,-96 C -56,-186 56,-186 56,-96" fill="none" stroke="#FBF6EC" stroke-width="9" stroke-linecap="round"/>
-    <g transform="translate(0,20) scale(.95)" fill="#141414"><use href="#logo"/></g>
+    <path d="M-98,-96 H98 L82,150 H-82 Z" fill="#cccccc" stroke="#ffffff" stroke-width="5"/>
+    <path d="M-56,-96 C -56,-186 56,-186 56,-96" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round"/>
+    <g transform="translate(0,20) scale(.95)" fill="#0a0a0a"><use href="#logo"/></g>
   </g>
 
   <!-- muestras de color -->
   <g transform="translate(120,1010)">
-    <rect x="0" y="0" width="120" height="56" rx="28" fill="#B4553A"/>
-    <rect x="140" y="0" width="120" height="56" rx="28" fill="#FBF6EC"/>
-    <rect x="280" y="0" width="120" height="56" rx="28" fill="#E3D2B4"/>
+    <rect x="0" y="0" width="120" height="56" rx="28" fill="#222222"/>
+    <rect x="140" y="0" width="120" height="56" rx="28" fill="#ffffff"/>
+    <rect x="280" y="0" width="120" height="56" rx="28" fill="#cccccc"/>
   </g>
 
-  <g fill="#B4553A">
+  <g fill="#222222">
     <path d="M760,110 l10 27 27 10 -27 10 -10 27 -10 -27 -27 -10 27 -10 z"/>
   </g>
 </svg>
