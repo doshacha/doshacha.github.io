@@ -1077,3 +1077,14 @@ body.cart-open{overflow:hidden}
   .hero__signature{width:68px;bottom:-8px;padding:8px}
   .rateboard__value{font-size:20px}
 }
+
+/* Mobile fix for topbar ticker animation */
+@media (max-width:720px) {
+  .topbar__track {
+    animation: slideMobile 30s linear infinite;
+  }
+}
+@keyframes slideMobile {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
